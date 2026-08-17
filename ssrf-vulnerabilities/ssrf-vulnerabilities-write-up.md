@@ -1,4 +1,3 @@
-# ...IN PROGRESS
 # SSRF Write-up
 
 ## Резюме (Executive Summary)
@@ -47,7 +46,7 @@ URL-синтаксис допускает конструкцию вида http:/
 
 ![](https://github.com/artiwolf/web-security-writeups/blob/main/screenshots/file30.png)
 
-В теле запроса обнаружился параметр stockApi с полным URL вида "http://stock.weliketoshop.net/product/stock/check?..."
+В теле запроса обнаружился параметр stockApi с полным URL вида "http://stock.weliketoshop.net/product/stock/check..."
 
 ### Шаг 2. Прямая попытка обратиться к localhost
 Замена хоста в stockApi на localhost/admin и отправление запроса через Repeater:
