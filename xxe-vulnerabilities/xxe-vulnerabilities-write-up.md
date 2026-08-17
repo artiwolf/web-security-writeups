@@ -1,5 +1,3 @@
-# ...IN PROGRESS
-
 # XXE Write-up
 
 ## Резюме
